@@ -182,7 +182,7 @@ p{
 .codeWeb{
     width: 25%;
     float:left;
-    margin-right: 40px;
+    margin: 0, 40px, 0, 40px;
 
 }
 
