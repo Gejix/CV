@@ -32,7 +32,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-custom">
           
-      <a class="navbar-brand" href="">Gerald Juwah <br> <span class="eye">Interactive resume</span></a>
+      <a class="navbar-brand" href="#gee">Gerald Juwah <br> <span class="eye">Interactive resume</span></a>
 
       <button class="navbar-toggler ml-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -41,16 +41,14 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#footer">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
-          </li>  
-          <li class="nav-item">
             <a class="nav-link" href="#skills">Skills</a>
           </li>
-          
-                              
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">My Projects</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>                      
         </ul>        
       </div>       
     </nav>    
@@ -60,7 +58,7 @@
         
     <img class="top-cloud"src="Image/cloud.png" alt="cloud-img">
     
-    <h1 class="padding">I'm Gerald.</h1>
+    <h1 class="padding" id="gee">I'm Gerald.</h1>
     
     <h2 class="subtile">a <span class="pro">pro</span> grammer</h2>
     
@@ -83,20 +81,115 @@
       <hr>
       <div class="skills" id="skills">
         <h2>My Skills.</h2>
+
         <div class="skill-row">
           <img class="codeWeb" src="Image/computer.png" alt="Skills Picture">
-          <h3>Design and Development</h3>
-          <p>As far back as I can remember I have been entralled with the wolrd of art, so design is like second nature to me. Also I'm very funned of computers.</p>
         </div>
-        <div class="skill-row2">
-          <img class="" src="" alt="">
-        
+      
+        <div>
+            <img class="column" src="Image/html.png" alt="Skills Picture" style="width:15%">
+            <img class="column" src="Image/css.png" alt="Skills Picture" style="width:10%">
+            <img class="column" src="Image/JS.png" alt="Skills Picture" style="width: 15%">
+            <img class="column" src="Image/node.png" alt="Skills Picture" style="width: 10%">
+            <img class="column" src="Image/mongodb.png" alt="Skills Picture" style="width: 15%">
+            <img class="column" src="Image/React.png" alt="Skills Picture"style="width: 10%">
+
+              <!-- <i class="fab fa-html5"></i>
+            
+              <i class="fab fa-css3-alt"></i>
+      
+              <i class="fab fa-node"></i>
+      
+              <i class="fab fa-react"></i>
+      
+              <i class="fas fa-database"></i> -->         
+        </div>
+
+        <div class="skil-container">
+          <h3>Design and Development</h3>
+          <p>I am an enthusiastic Web developer with a MERN stack and still learning. 
+            As far back as I can remember I have been enthralled with the world of art, 
+            so design is like second nature to me. Also I'm very fond of computers.</p>
+        </div>
+
+
+
+        <!-- <div class="skill-row2">
+                  
           <iframe class="mech" src="Image/giphy.gif" class="giphy-embed" allowFullScreen alt="Mecahnical/Piping Engineer"></iframe>
           
           <h3>Mechanical/Piping Engineer</h3>
           <p>I am a seasoned professional Mechanical/Piping Engineer. Grounded in Design and Construction.</p>
         </div>
-      </div>
+
+      </div>-->
+      <hr> 
+
+        <div class="album py-5">
+          <div class="container">
+          <div class="">
+            <h2  class="projects" id="projects">My Projects</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <div class="adv-thumb-link">
+                  <img class="bd-placeholder-img card-img-top" src="Image/Newsletter.JPG"></img>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text"><strong>Newsletter App.</strong>The App is hosted on Heroku site and uses Mail chip’s API to get client mail on sign-up.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a type="button" class="btn btn-sm btn-outline-secondary" href="https://helix-artz-news-letter.herokuapp.com/">View</a>
+                      </div>
+                      <div class="mute">
+                      <small class="text-muted">HTML, CSS, Javascript and API</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <div class="adv-thumb-link">
+                  <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="Image/todo app.JPG"></img>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text"><strong>Todo App.</strong>The App is runs on Heroku site and  it's data base is on Mongodb and it is multi-page rendering App.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a type="button" class="btn btn-sm btn-outline-secondary" href="https://todo-applist-helixartz.herokuapp.com/">View</a>
+                      </div>
+                      <div class="mute">
+                      <small class="text-muted">HTML, CSS, Javascript, Mongodb and API</small>
+                    </div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <div class="adv-thumb-link">
+                  <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="Image/Note app.JPG"></img>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text"><strong>Note App.</strong>This is a simple Note App built with React.js and enhanced with material UI.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a type="button" class="btn btn-sm btn-outline-secondary" href="https://lgmtj.csb.app/">View</a>
+                      </div>
+                      <div class="mute">
+                      <small class="text-muted">HTML, CSS, Javascript, Material UI and React</small>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+          </div>
+        </div>
+      
       <hr>
       <div class="contact-me">
         <h2>Get In Touch</h2>
@@ -117,9 +210,6 @@
           <a href="">
             <i class="icon-footer fab fa-twitter"></i>
           </a>
-          <a target="_blank" href="https://web.facebook.com/gjuwah">
-            <i class="icon-footer fab fa-facebook-f"></i>
-          </a>
           <a target="_blank" href="https://www.instagram.com/helix_artz/">
             <i class="icon-footer fab fa-instagram"></i>
           </a>
@@ -129,7 +219,7 @@
            
         </div>  
 
-        <p class="tradeMark">© 2021 Gerald Juwah.</p>
+        <p class="tradeMark">©<script>document.write(new Date().getFullYear())</script> Gerald Juwah.</p>
 
       </div>
     </section>
